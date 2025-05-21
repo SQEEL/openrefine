@@ -121,6 +121,9 @@ cell.cross("plan_sales_filter", "Канал")[0].cells["ID_канала"].value
 ```
 ![img](img/plan_sales_id_channel_value.png)
 
+- Получаем итоговую таблицу
+![img](img/result.png)
+
 
 
 
