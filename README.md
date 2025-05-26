@@ -1,7 +1,25 @@
+## Создаём проект `plan_sales`
 
-## Создаём проект plan_sales
+> ℹ️ **Важно:** перед тем, как импортировать данные в OpenRefine,  
+> сохраните файл с *уже пересчитанными итоговыми значениями*.  
+> В движок OpenRefine не входит Excel-пересчёт, поэтому формулы должны быть
+> превращены в числа заранее.
 
-ВАЖНО! Перед началом работы, необходимо сохранить файл с итоговыми значениями, в openrefine не стали загонять движок excel внутрь, сохранённый файл можно скачать например отсюда https://github.com/SQEEL/openrefine/blob/main/excel/План%20продаж.xlsx.
+### 1 — скачайте подготовленный файл
+
+[![Скачать «План продаж.xlsx»](https://img.shields.io/badge/📥-Скачать-2596be?style=for-the-badge&logo=Microsoft%20Excel&logoColor=white)](https://raw.githubusercontent.com/SQEEL/openrefine/main/excel/%D0%9F%D0%BB%D0%B0%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6.xlsx)
+
+<details>
+<summary>💻 или через <span style="font-family:monospace">wget</span>/<span style="font-family:monospace">curl</span></summary>
+
+```bash
+# wget
+wget -O "План продаж.xlsx" \
+  "https://raw.githubusercontent.com/SQEEL/openrefine/main/excel/%D0%9F%D0%BB%D0%B0%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6.xlsx"
+
+# curl
+curl -L -o "План продаж.xlsx" \
+  "https://raw.githubusercontent.com/SQEEL/openrefine/main/excel/%D0%9F%D0%BB%D0%B0%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6.xlsx"
 
 ### Импортируем
 
