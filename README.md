@@ -78,7 +78,7 @@ curl -L -o "План продаж.xlsx" \
 
 ![img](img/id_fill_down.png)
 
-- Создаём колонку Дата на основе колонки "Канал продаж" (Edit column > Add column base on this column)
+- Создаём колонку Дата на основе колонки "Канал продаж" (Правка колонки > Добавить колонку основываясь на текущей...)
 
 ![img](img/create_date_column.png)
 
