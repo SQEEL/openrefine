@@ -1,4 +1,3 @@
-## Создаём проект `plan_sales`
 
 > ℹ️ **Важно:** перед тем, как импортировать данные в OpenRefine,  
 > сохраните файл с *уже пересчитанными итоговыми значениями*.  
@@ -28,6 +27,13 @@ curl -L -o "План продаж.xlsx" \
   "https://raw.githubusercontent.com/SQEEL/openrefine/main/excel/%D0%9F%D0%BB%D0%B0%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6.xlsx"
 ```
 </details>
+
+## Создаём проект `plan_sales`
+
+- Заходим на страницу с приложением на сайт https://sqeel.space
+- Выбираем раздел "Загрузить данные из / На этом компьютере"
+
+![img](img/create_project.png)
 
 ### Импортируем в Openrefine с локального компьютера
 
@@ -143,6 +149,8 @@ if(
 
 
 ## Создаём проект plan_sales_filter
+
+
 
 ### Импортируем
 
