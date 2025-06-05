@@ -128,10 +128,10 @@ if(
   ![img](img/transform_same_column_menu.png)
   2) Пишем формулу с заменой по маске "__{число}" на пустую строку:
 
-```
-value.replace(/__\d+$/,"")
-```
-  ![img](img/transform_same_column_expression.png)
+  ```
+  value.replace(/__\d+$/,"")
+  ```
+    ![img](img/transform_same_column_expression.png)
   3) Получаем очищенный и корректные данные
   ![img](img/final_view_before_lookup_column.png)
 
