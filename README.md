@@ -56,7 +56,7 @@ curl -L -o "План продаж.xlsx" \
 
 ### Транспонируем
 
-- Выбираем на колонку Column > Transpose > Transpose cells across columns into rows
+- Выбираем на колонку Column > Преобразование > Переместить ячейки колонок в строки
 ![img](img/choose_transpose.png)
 
 - Во всплывающем окне проставляем:
