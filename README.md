@@ -144,7 +144,7 @@ if(
   value.replace(/__\d+$/,"")
   ```
     ![img](img/transform_same_column_expression.png)
-  3) Получаем очищенный и корректные данные
+  3) Получаем очищенные данные на выходе
   ![img](img/final_view_before_lookup_column.png)
 
 
