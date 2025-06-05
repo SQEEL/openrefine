@@ -176,7 +176,7 @@ if(
 - Создаём колонку на основе Канала продаж
 ![img](img/add_new_column_based_on_sales_channel.png)
 
-- Прописываем название
+- Прописываем название ID_канала
 ```
 cell.cross("plan_sales_filter", "Канал")[0].cells["ID_канала"].value
 ```
