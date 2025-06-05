@@ -114,7 +114,7 @@ if(
 
   1) Выбираем Text filter 
   ![img](img/sales_channel_text_filter.png)
-  2) Пишем текст "итого" (важно чтобы галочка case sensative не стояла)
+  2) Пишем текст "итого" (важно чтобы галочка "учитывать регистр" не стояла)
   ![img](img/sales_channel_text_filter_total.png)
   3) Выбираем в разделе All > Edit rows > Remove matching columns
   ![img](img/sales_channel_text_filter_total_remove_matching_rows.png)
