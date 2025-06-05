@@ -140,9 +140,9 @@ if(
   ![img](img/transform_same_column_menu.png)
   2) Пишем формулу с заменой по маске "__{число}" на пустую строку:
 
-  ```
-  value.replace(/__\d+$/,"")
-  ```
+    ```
+    value.replace(/__\d+$/,"")
+    ```
     ![img](img/transform_same_column_expression.png)
   3) Получаем очищенные данные на выходе
   ![img](img/final_view_before_lookup_column.png)
