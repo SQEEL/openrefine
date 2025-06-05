@@ -116,7 +116,7 @@ if(
   ![img](img/sales_channel_text_filter.png)
   2) Пишем текст "итого" (важно чтобы галочка "учитывать регистр" не стояла)
   ![img](img/sales_channel_text_filter_total.png)
-  3) Выбираем в разделе All > Edit rows > Remove matching columns
+  3) Выбираем в разделе Все > Правка строк > Удалить все отобранные записи
   ![img](img/sales_channel_text_filter_total_remove_matching_rows.png)
   4) Закрываем фильтр по Каналу продаж
   ![img](img/sales_channel_text_filter_total_quit.png)
