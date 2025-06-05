@@ -121,6 +121,21 @@ if(
   4) Закрываем фильтр по Каналу продаж
   ![img](img/sales_channel_text_filter_total_quit.png)
 
+
+- Переименовываем колонки, которые из-за одинакового названия получили хвост "__{порядковый номер}"
+
+  1) Выбираем в колонке "Канал продаж" раздел Правка ячеек > Преобразование
+  ![img](img/transform_same_column_menu.png)
+  2) Пишем формулу с заменой по маске "__{число}" на пустую строку:
+
+```
+value.replace(/__\d+$/,"")
+```
+  ![img](img/transform_same_column_expression.png)
+  3) Получаем очищенный и корректные данные
+  ![img](img/final_view_before_lookup_column.png)
+
+
 ## Создаём проект plan_sales_filter
 
 ### Импортируем
